@@ -99,7 +99,7 @@ const uploadFile = async (e) => {
         alert("Document Shared")
         }
         return (
-            <div>
+            <div className="editor-card">
             
             <input
             placeholder="Share with email"
