@@ -1,0 +1,92 @@
+# Architecture
+
+## Overview
+
+This project is a full stack document editor application that allows users to create, edit, upload, and share documents.
+
+The architecture follows a simple structure:
+
+Frontend → Backend → Database
+
+---
+
+## Frontend
+
+Technology:
+- React
+- TipTap Editor
+
+Responsibilities:
+- Document editing UI
+- File upload UI
+- Sharing UI
+- Document list display
+
+Key Files:
+- App.js
+- Editor.js
+
+---
+
+## Backend
+
+Technology:
+- Node.js
+- Express
+
+Responsibilities:
+- API endpoints
+- File upload handling
+- Sharing logic
+- Database interaction
+
+API Endpoints:
+
+POST /documents  
+GET /documents  
+PUT /documents/:id  
+POST /upload  
+POST /share  
+GET /shared/:email  
+
+---
+
+## Database
+
+Technology:
+- SQLite
+
+Tables:
+
+### Documents
+
+- id
+- title
+- content
+
+### Shares
+
+- id
+- documentId
+- userEmail
+
+---
+
+## Design Decisions
+
+- SQLite used for simplicity
+- Express used for lightweight backend
+- TipTap used for editor functionality
+- Simple sharing model
+
+---
+
+## Tradeoffs
+
+Not implemented:
+
+- Authentication
+- Real-time collaboration
+- Version history
+
+These were intentionally excluded to keep the project scoped.

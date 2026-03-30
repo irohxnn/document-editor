@@ -1,0 +1,81 @@
+# Submission
+
+## Project Overview
+
+This is a full stack document editor application with document creation, editing, upload, and sharing features.
+
+---
+
+## Features Implemented
+
+- Document creation
+- Document editing
+- Rename document
+- Save document
+- Upload file (.txt)
+- Share document
+- Persistence using SQLite
+
+---
+
+## Tech Stack
+
+Frontend:
+- React
+- TipTap
+
+Backend:
+- Node.js
+- Express
+
+Database:
+- SQLite
+
+---
+
+## How to Run
+
+Backend:
+
+cd backend  
+npm install  
+node server.js  
+
+Frontend:
+
+cd frontend  
+npm install  
+npm start  
+
+---
+
+## What Was Prioritized
+
+- Core document editing
+- File upload
+- Sharing feature
+- Persistence
+
+---
+
+## What Was Not Implemented
+
+- Real-time collaboration
+- Version history
+- Comments
+
+---
+
+## Future Improvements
+
+- Real-time collaboration
+- Authentication
+- Version history
+
+---
+
+## Walkthrough Video
+
+Video Link:
+
+(Add your video link here)

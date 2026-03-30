@@ -1,0 +1,53 @@
+# AI Workflow
+
+## AI Tools Used
+
+- ChatGPT
+- GitHub Copilot (optional)
+
+---
+
+## Where AI Helped
+
+AI was used for:
+
+- Project planning
+- Backend API creation
+- React UI structure
+- Debugging syntax errors
+- Database schema design
+
+---
+
+## Changes Made to AI Output
+
+- Fixed JSX errors
+- Improved UI layout
+- Adjusted API endpoints
+- Added error handling
+
+---
+
+## What Was Rejected
+
+- Real-time collaboration features
+- Authentication system
+
+These were rejected to maintain project scope.
+
+---
+
+## Verification
+
+To verify correctness:
+
+- Manual testing
+- API testing
+- Refresh persistence testing
+- Sharing feature testing
+
+---
+
+## Outcome
+
+AI helped speed up development while maintaining code clarity and functionality.
